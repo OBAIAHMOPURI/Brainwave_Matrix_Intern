@@ -1,5 +1,29 @@
 # Banky Application
 
+## Project Overview
+
+Banky Application is a learning project for exploring everyday account-management journeys, such as opening an account, checking a balance, and discussing deposits or withdrawals. It gives learners and reviewers a concrete starting point for talking about forms, information, and customer experience.
+
+**Current stage:** an incomplete educational prototype with application source, not a safe or verified banking product. Use fictional examples only; do not use real money, customer records, or account credentials.
+
+## Business Use Cases
+
+Use this project for learning and requirements discussions, not live financial operations:
+
+- **Product discovery:** walk through a fictional customer's account journey and identify confusing wording or missing steps.
+- **Team learning:** discuss the privacy, permissions, and approval checks that account-related work would need.
+- **Planning improvements:** turn gaps such as unfinished transfers and unsafe account handling into a clearly prioritized review list.
+
+## Team Onboarding Checklist
+
+- [ ] Read the current-stage note and the limitations below before planning any demonstration.
+- [ ] Pick one fictional account journey and agree what the team wants to learn.
+- [ ] Ask a technical teammate to confirm what can actually be demonstrated; do not assume the application runs.
+- [ ] Use made-up names and balances only, and never share real PINs, passwords, or customer details.
+- [ ] Read the [contribution guide](CONTRIBUTING.md), agree a project contact, and browse [Related Projects](#related-projects).
+
+## Existing Project Details
+
 A Java Servlet/JDBC banking **learning application** located in [`Banky_Application/`](Banky_Application/). HTML forms submit to servlets that execute SQL against a local MySQL `bank` schema. This is an educational prototype, not a production banking system.
 
 > **Safety/status:** Source exists, but end-to-end behavior has not been verified. Database DDL and runtime configuration are not supplied, database credentials are embedded in source, and several operations are incomplete or unsafe. Use synthetic data in an isolated local environment only.
@@ -66,7 +90,11 @@ After those prerequisites and fixes are completed in your local environment, the
 
 Do not expose this application to untrusted networks or use real financial/customer data. Documentation does not repair these issues.
 
-## Network Ecosystem
+## Related Projects
+
+Explore the seven other projects in this account. Each link opens that project's main page so you can compare its purpose and stage. These are browsing links, not live connections between applications.
+
+### Network Ecosystem
 
 This is a navigation network across all eight repositories owned by this account, audited on 13 November 2026. Links indicate sibling projects, **not implemented integrations**. The Java apps are independent learning projects; the six service repositories have no application code.
 
